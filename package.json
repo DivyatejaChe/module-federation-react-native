@@ -1,0 +1,19 @@
+{
+  "name": "modulefedlatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:client": "node packages/client/index.js",
+    "run:server": "node packages/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/client",
+    "packages/server",
+    "client",
+    "server"
+  ]
+}
