@@ -10,8 +10,6 @@
     "run:miniAppOne:android": "npm run android -w packages/miniAppOne",
     "start:miniAppTwo": "npm start -w packages/miniAppTwo",
     "run:miniAppTwo:android": "npm run android -w packages/miniAppTwo",
-    "start:miniAppThree": "npm start -w packages/miniAppThree",
-    "run:miniAppThree:android": "npm run android -w packages/miniAppThree",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -20,7 +18,6 @@
     "packages/client",
     "packages/server",
     "packages/miniAppOne",
-    "packages/miniAppTwo",
-    "packages/miniAppThree"
+    "packages/miniAppTwo"
   ]
 }
