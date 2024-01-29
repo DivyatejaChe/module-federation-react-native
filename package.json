@@ -18,6 +18,7 @@
     "packages/client",
     "packages/server",
     "packages/miniAppOne",
-    "packages/miniAppTwo"
+    "packages/miniAppTwo",
+    "packages/shared"
   ]
 }

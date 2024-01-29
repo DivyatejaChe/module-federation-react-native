@@ -8,7 +8,10 @@ const path = require('path');
  * @type {import('metro-config').MetroConfig}
  */
 const config = {
-  watchFolders: [path.resolve(__dirname, '../../node_modules')],
+  watchFolders: [
+    path.resolve(__dirname, '../../node_modules'),
+    path.resolve(__dirname, '../../node_modules/@myapp/shared'),
+  ],
 };
 
 module.exports = mergeConfig(getDefaultConfig(__dirname), config);
