@@ -8,8 +8,10 @@
     "run:server": "node packages/server/index.js",
     "start:miniAppOne": "npm start -w packages/miniAppOne",
     "run:miniAppOne:android": "npm run android -w packages/miniAppOne",
+    "bundle:miniAppOne": "npm run bundle -w packages/miniAppOne",
     "start:miniAppTwo": "npm start -w packages/miniAppTwo",
     "run:miniAppTwo:android": "npm run android -w packages/miniAppTwo",
+    "bundle:miniAppTwo": "npm run bundle -w packages/miniAppTwo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
